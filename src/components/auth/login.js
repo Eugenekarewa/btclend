@@ -16,7 +16,8 @@ const Login = () =>{
                 placeholder="enter your email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                required />
+                required 
+                />
                 <input 
                 type="password"
                 placeholder="enter your password"
